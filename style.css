@@ -1,0 +1,28 @@
+body {
+  text-align: center; /* Alinea el texto al centro de la página. */
+  background-color: rgb(255, 255, 255); /* Establece el color de fondo del cuerpo de la página como blanco. */
+}
+
+h1 {
+  text-align: center; /* Alinea el texto de los encabezados h1 al centro. */
+  font-size: 50px; /* Tamaño de la fuente de los encabezados h1. */
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Familia de fuentes para los encabezados h1. */
+}
+
+.titulo {
+  font-size: 36px; /* Tamaño de la fuente para elementos con la clase 'titulo'. */
+  color: #333; /* Color del texto para elementos con la clase 'titulo', un gris oscuro. */
+}
+
+.texto {
+  font-size: 24px; /* Tamaño de la fuente para elementos con la clase 'texto'. */
+  color: #385c34; /* Color del texto para elementos con la clase 'texto', un verde oscuro. */
+}
+
+.generalimg {
+  display: block; /* Hace que la imagen se muestre como un bloque, ocupando toda la anchura disponible. */
+  margin-left: auto; /* Junto con 'margin-right', centra la imagen horizontalmente. */
+  margin-right: auto; 
+  width: 500px; /* Ancho fijo de la imagen. */
+  height: 500px; /* Altura fija de la imagen. */
+}

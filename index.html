@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Esta línea declara el tipo de documento y la versión de HTML, en este caso HTML5. Es importante porque le dice al navegador cómo interpretar el documento. -->
+
+<html lang="es">
+<!-- La etiqueta <html> abre el documento HTML. El atributo 'lang' especifica que el idioma del documento es español. -->
+
+<head>
+<!-- La sección <head> contiene información meta sobre el documento, como su título y enlaces a hojas de estilo. -->
+
+    <meta charset="UTF-8">
+    <!-- Esta etiqueta <meta> establece la codificación de caracteres UTF-8 para el documento. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esta etiqueta <meta> es importante para la responsividad del sitio web. -->
+
+    <title>Cool images</title>
+    <!-- Define el título de la página, visible en la pestaña del navegador. -->
+
+    <link rel="stylesheet" href="../style.css"/>
+    <!-- Enlaza una hoja de estilos CSS externa para la página. -->
+
+    <link rel="icon" href="imgs/main.png"/>
+    <!-- Define un favicon (icono de la pestaña) para la página. -->
+</head>
+<!-- Aquí cierra la etiqueta </head>. Todo lo que está entre <head> y </head> no se muestra directamente en la página web, pero proporciona información al navegador. -->
+
+<body>
+<!-- La etiqueta <body> contiene todo el contenido de la página web que los usuarios verán y con el que interactuarán. -->
+
+    <h1>Práctica 12 - Map-Images!</h1>
+    <!-- Encabezado principal de la página. -->
+
+    <hr>
+    <!-- Crea una línea horizontal, usada como separador. -->
+
+    <p class="texto">Hay nuevos productos en nuestra tienda!</p>
+    <!-- Un párrafo con una clase 'texto' para aplicar estilos específicos. -->
+
+    <div class="imagen-container">
+        <!-- Contenedor para la primera imagen y su mapa de imagen. -->
+
+        <img src="imgs/3.jpg" alt="Imagen no encontrada" usemap="#rectangle" class="derecha"/>
+        <!-- Imagen con un mapa de imagen asociado. -->
+
+        <map name="rectangle">
+            <!-- Define un mapa de imagen. -->
+
+            <area shape="rect" coords="34, 44, 270, 350" href="pages/Computers.html" name="rectangle"/>
+            <!-- Área rectangular en el mapa de imagen que enlaza a una página. -->
+
+            <area shape="circle" coords="337, 300, 44" href="pages/Coffee.html" />
+            <!-- Área circular en el mapa de imagen que enlaza a otra página. -->
+
+            <area shape="rect" coords="333, 248, 290, 172" href="pages/Phone.html" name="phone"/>
+            <!-- Otra área rectangular en el mapa de imagen que enlaza a una página diferente. -->
+        </map>
+    </div>
+
+    <div class="imagen-container2">
+        <!-- Contenedor para la segunda imagen y su mapa de imagen. -->
+
+        <img src="imgs/2.jpg" alt="Imagen no encontrada papu Unu" usemap="#poly-map" class="izquierda" />
+        <!-- Imagen con un mapa de imagen asociado. -->
+
+        <map name="poly-map">
+            <!-- Define otro mapa de imagen. -->
+
+            <area coords="92,184,61,211,40,262,39,307,43,337,56,354,90,355,145,331,190,269,206,222,204,175,194,141,178,114,139,124,109,150" href="pages/Pan.html" shape="poly">
+            <!-- Área poligonal en el mapa de imagen que enlaza a una página. -->
+        </map>
+    </div> 
+</div>
+
+</body>
+<!-- Esta etiqueta cierra el <body>, que es donde termina el contenido visible de la página. -->
+</html>
+<!-- Esta etiqueta cierra el documento HTML. -->
